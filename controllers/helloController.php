@@ -10,9 +10,9 @@
 
 		public function buybooks(){
 			$b1 = new book;
-			$b1->book_id = '001';
-			$b1->book_name = 'Hello PHP';
-			$b1->price = 100;
+			$b1->book_id = '003';
+			$b1->book_name = 'Hello PHP tutorial';
+			$b1->price = 300;
 
 			echo $b1->book_id . ' ' . $b1->book_name . ' ' . $b1->price;
 		}
