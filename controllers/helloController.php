@@ -14,7 +14,7 @@
 			$b1->book_name = 'Hello PHP tutorial';
 			$b1->price = 300;
 
-			echo $b1->book_id . ' ' . $b1->book_name . ' ' . $b1->price;
+			echo '=>' . $b1->book_id . ' ' . $b1->book_name . ' ' . $b1->price;
 		}
 
 	}
