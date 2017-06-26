@@ -20,5 +20,5 @@
 	}
 
 $c = new helloController;
-$c->buybooks;
+$c->buybooks();
 ?>
