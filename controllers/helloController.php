@@ -18,3 +18,7 @@
 		}
 
 	}
+
+$c = new helloController;
+$c->buybooks;
+?>
